@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -12,7 +17,8 @@ p:last-child {
     margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -25,6 +31,8 @@ a {
 
 button {
     cursor: pointer;
+    background: none;
+    border: none;
 }
 
 img {
@@ -32,3 +40,13 @@ img {
     max-width: 100%;
     height: auto;
 }
+input,
+textarea,
+select {
+    font: inherit;
+    margin: 0;
+}
+
+
+
+
